@@ -1,0 +1,43 @@
+table, th, td {
+  border: 2px solid blue;
+  text-align: center;
+}
+th, td {
+  padding: 10px;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+.emph {
+  font-style: italic;
+  color: GoldenRod;
+}
+h2 {
+  position: relative;
+  left: 4em;
+}
+.navbar {
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+.logo {
+  height: 100px;
+}
+.navlist {
+  list-style: none;
+
+}
+.navlist .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}

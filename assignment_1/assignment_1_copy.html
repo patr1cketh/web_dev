@@ -4,34 +4,28 @@
     <meta charset="utf-8">
     <title>My Website</title>
     <style>
-      #logo {
-        float: left;
-        width: 25%;
-        padding: 10px;
-      }
-      table, th, td {
-        border: 2px solid blue;
-        text-align: center;
-      }
-      th, td {
-        padding: 10px;
-      }
-      .emph {
-        font-style: italic;
-        color: GoldenRod;
-      }
-      h2 {
-        position: relative;
-        left: 4em;
 
-      }
     </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body background="images/background2.jpg">
+    <nav class="navbar">
+      <div>
+        <!-- logo should be part of section 1!-->
+        <img class="logo" src="https://logo-load.com/uploads/posts/2016-04/1459778990_ucc-logo.png" alt="UCC Logo">
+      </div>
+      <ul class="navlist">
+        <li class="list-item"><a>Home</a></li>
+        <li class="list-item"><a>About Me</a></li>
+        <li class="list-item"><a>Modules</a></li>
+        <li class="list-item"><a>Projects</a></li>
+        <li class="list-item">Search<form action="https://duckduckgo.com"><input type="text" name="q"><input type="submit" value="Search"></form>
+      </ul>
+    </nav>
     <header>
       <!-- Add navigation bar that stays visible - positioning attribute.
       Move content down with padding !-->
-          <img id="logo" src="https://logo-load.com/uploads/posts/2016-04/1459778990_ucc-logo.png" alt="UCC logo">
+
           <br>
 
       <h2>Welcome to my website!</h2>
