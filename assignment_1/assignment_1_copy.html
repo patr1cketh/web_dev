@@ -19,7 +19,7 @@
         <li class="list-item"><a>About Me</a></li>
         <li class="list-item"><a>Modules</a></li>
         <li class="list-item"><a>Projects</a></li>
-        <li class="list-item">Search<form action="https://duckduckgo.com"><input type="text" name="q"><input type="submit" value="Search"></form>
+        <li class="list-item"><a>Search</a></li>
       </ul>
     </nav>
     <header>
@@ -33,6 +33,42 @@
 
     </header>
     <article>
+      <h2>Search</h2>
+      <form action="https://duckduckgo.com">
+        Search for: <input type="text" name="q">
+        <br>
+        Theme:
+        <br>
+        <input type="radio" name="kae" value="-1" checked>Default<br>
+        <input type="radio" name="kae" value="c">Contrast<br>
+        <input type="radio" name="kae" value="r">Retro<br>
+        <input type="radio" name="kae" value="d">Dark<br>
+        <input type="radio" name="kae" value="t">Terminal<br>
+        <!-- drop down menu
+        <select name="kae" id="kae">
+          <option value="-1">Default</option>
+          <option value="c">Contrast</option>
+          <option value="r">Retro</option>
+          <option value="d">Dark</option>
+          <option value="t">Terminal</option>
+          !-->
+        </select>
+        <input type="submit" value="Go">
+      </form>
+      <form action="https://www.xe.com/currencyconverter/convert/">
+        Convert EUR to GBP<input type="text" name="Amount">
+        <input type="hidden" name="From" value="EUR">
+        <input type="hidden" name="To" value="GBP">
+        <input type="submit" value="Go">
+
+      </form>
+      <form action="https://www.xe.com/currencyconverter/convert/">
+        Convert GBP to EUR<input type="text" name="Amount">
+        <input type="hidden" name="From" value="GBP">
+        <input type="hidden" name="To" value="EUR">
+        <input type="submit" value="Go">
+
+      </form>
       <h2>Timetable</h2>
       <table>
         <tr>
