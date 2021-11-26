@@ -1,0 +1,11 @@
+<h2>Home Photo</h2>
+<p>
+  This is a photo of the North side of Cork City in the evening with the clock tower of St. Annes church visible on the left, known locally as the "Shandon Bells".
+</p>
+<img id="cork" src="https://www.tripsavvy.com/thmb/g8Uw_XqAQZvCTUuy7z5bX5Py898=/5150x2897/smart/filters:no_upscale()/CorkCity-5b8800b8c9e77c007b1e3eb7.jpg" alt="Cork City">
+
+<h2>Other Photo</h2>
+<p>
+  This is a photo of the Sheep's Head lighthouse near Kicrohane in West Cork. I spent some time here during the lockdown last summer.
+</p>
+<img  id="sheeps_head" src="https://img2.thejournal.ie/article/3688970/river?version=3678431&width=1340" alt="Sheeps Head lighthouse">

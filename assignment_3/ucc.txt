@@ -1,0 +1,111 @@
+<img class="logo" src="https://logo-load.com/uploads/posts/2016-04/1459778990_ucc-logo.png" alt="UCC Logo">
+
+<h2>Class Timetable</h2>
+<table>
+  <tr>
+    <th>Module Code</th>
+    <th>Module Title</th>
+    <th>Day and Time</th>
+    <th>Delivery Method</th>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2044">AP2044</a></td>
+    <td>Applied Cognition</td>
+    <td>Monday 4pm - 6pm</td>
+    <td>In person <br> BOOLE_2</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2045">AP2045</a></td>
+    <td>Psychology of Childhood and Adolescence</td>
+    <td>Wednesday 3pm - 5pm</td>
+    <td>Online</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2046">AP2046</a></td>
+    <td>Research Design and Statistical Analyses II</td>
+    <td>Monday 2pm - 3pm</td>
+    <td>In person <br> ELECT_L1</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2114">AP2114</a></td>
+    <td>Research Methods in Psychology II</td>
+    <td>Tuesday 3pm - 5pm</td>
+    <td>In person <br> CEC_7/8</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2011">CS2011</a></td>
+    <td>Intermediate Programming and Problem Solving I</td>
+    <td>Monday 10am - 11am</td>
+    <td>In person <br> WGB_G09</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Thursday 12pm - 1pm</td>
+    <td>In person <br> WGB_402</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2012">CS2012</a></td>
+    <td>Web Development</td>
+    <td>Tuesday 12pm - 1pm</td>
+    <td>In person <br> WGB_G09</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Wednesday 12pm - 1pm</td>
+    <td>In person <br> WGB_G16</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2512">CS2512</a></td>
+    <td>Authoring</td>
+    <td>Monday 12pm - 2pm</td>
+    <td>In person <br> WGB_G02</td>
+  </tr>
+</table>
+</div>
+
+<h2>Lab Timetable</h2>
+<table>
+  <tr>
+    <th>Module Code</th>
+    <th>Module Title</th>
+    <th>Day and Time</th>
+    <th>Delivery Method</th>
+  </tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2046">AP2046</a></td>
+    <td>Reseach Design and Statistical Analyses II</td>
+    <td>Tuesday 9am - 10am</td>
+    <td>Online</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=AP2114">AP2114</a></td>
+    <td>Research Methods in Psychology II</td>
+    <td>Thursday 9am - 10am</td>
+    <td>In person <br> Distillery House APG01</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2011">CS2011</a></td>
+    <td>Intermediate Programming and Problem Solving I</td>
+    <td>Thursday 1pm - 3pm</td>
+    <td>In person <br> WGB_1.10</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Tuesday 5pm - 6pm</td>
+    <td>In person <br> WGB_G21</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2012">CS2012</a></td>
+    <td>Web Development</td>
+    <td>Friday 10am - 11am</td>
+    <td>Online</td>
+  </tr>
+  <tr>
+    <td><a href ="https://www.ucc.ie/admin/registrar/modules/?mod=CS2512">CS2512</a></td>
+    <td>Authoring</td>
+    <td>Tuesday 1pm - 2pm</td>
+    <td>In person <br> WGB_1.15</td>
+  </tr>
+</table>

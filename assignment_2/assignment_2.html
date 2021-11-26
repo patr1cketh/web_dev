@@ -6,9 +6,7 @@
     <style>
     body {
       background-image: radial-gradient(#FFFFFF, #554971);
-    }
-    nav {
-      background-image: linear-gradient(90deg, #FFFFFF, #B8F3FF);
+      margin: auto;
     }
     table, th, td {
       border: 2px solid #8AC6D0;
@@ -24,15 +22,17 @@
 
     .navbar {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       font-size: 20px;
       position: fixed;
       width: 100%;
+      background-image: radial-gradient(#FFFFFF, #B8F3FF);
     }
     .logo {
       height: 100px;
       float: left;
+      margin: 10px;
     }
     .navlist {
       list-style: none;
@@ -42,12 +42,12 @@
       color: #36213E;
       text-decoration: none;
     }
-    .navlist .list-item {
+    .navbar .list-item {
       display: inline-block;
-      padding: 10px 30px;
+      padding: 0px 20px 0px 20px;
     }
     #home, #class_timetable, #lab_timetable, #home_photo, #other_photo {
-      padding-top: 100px;
+      padding-top: 50px;
     }
     #cork, #sheeps_head {
       width: 80%;
@@ -57,7 +57,7 @@
     </style>
   </head>
   <body>
-    
+    <div class="navbar">
       <ul class="navlist">
         <li class="list-item"><a href="#home">Home</a></li>
         <li class="list-item"><a href="#class_timetable">Class Timetable</a></li>
@@ -65,18 +65,17 @@
         <li class="list-item"><a href="#home_photo">Home Photo</a></li>
         <li class="list-item"><a href="#other_photo">Other Photo</a></li>
       </ul>
-
-    <article>
-      <div id="home">
+    </div>
+    <div id="home">
         <h2>Home</h2>
         <img class="logo" src="https://logo-load.com/uploads/posts/2016-04/1459778990_ucc-logo.png" alt="UCC Logo">
         <p>My name is Tom Forde. I am a 2nd year Psychology and Computing student at UCC. This website is for assignment 2 of my Web Develpment module.
           In this assignment I created a navigation bar that stays at the top of the page as you scroll.
           I used CSS flexbox to space the elements in the navbar evenly and allow them to be responsive to window resizing.
           I have included two timetables - one for lectures and one for labs.
-          I have also included two photo sections - one of my hometown Cork and another of the Sheep's Head peninsula."</p>
+          I have also included two photo sections - one of my hometown Cork and another of the Sheep's Head peninsula.</p>
       </div>
-      <div id="class_timetable">
+    <div id="class_timetable">
         <h2>Class Timetable</h2>
         <table>
           <tr>
@@ -141,7 +140,7 @@
           </tr>
         </table>
       </div>
-      <div id="lab_timetable">
+    <div id="lab_timetable">
         <h2>Lab Timetable</h2>
         <table>
           <tr>
@@ -187,7 +186,7 @@
           </tr>
         </table>
       </div>
-      <div id="home_photo">
+    <div id="home_photo">
         <h2>Home Photo</h2>
         <p>
           This is a photo of the North side of Cork City in the evening with the clock tower of St. Annes church visible on the left, known locally as the "Shandon Bells".
@@ -195,7 +194,7 @@
         <img id="cork" src="https://www.tripsavvy.com/thmb/g8Uw_XqAQZvCTUuy7z5bX5Py898=/5150x2897/smart/filters:no_upscale()/CorkCity-5b8800b8c9e77c007b1e3eb7.jpg" alt="Cork City">
 
       </div>
-      <div id="other_photo">
+    <div id="other_photo">
         <h2>Other Photo</h2>
         <p>
           This is a photo of the Sheep's Head lighthouse near Kicrohane in West Cork. I spent some time here during the lockdown last summer.
@@ -203,8 +202,5 @@
         <img  id="sheeps_head" src="https://img2.thejournal.ie/article/3688970/river?version=3678431&width=1340" alt="Sheeps Head lighthouse">
 
       </div>
-
-    </article>
-
   </body>
 </html>
