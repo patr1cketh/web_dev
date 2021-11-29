@@ -1,5 +1,6 @@
-My name is Tom Forde. I am a 2nd year Psychology and Computing student at UCC. This website is for assignment 2 of my Web Develpment module.
-  In this assignment I created a navigation bar that stays at the top of the page as you scroll.
-  I used CSS flexbox to space the elements in the navbar evenly and allow them to be responsive to window resizing.
-  I have included two timetables - one for lectures and one for labs.
-  I have also included two photo sections - one of my hometown Cork and another of the Sheep's Head peninsula.
+<p>
+My name is Tom Forde. I am a 2nd year Psychology and Computing student at UCC.
+This website is for assignment 3 of my Web Develpment module.
+In this assignment the content of the webpage is separated from the structure.
+Each of the four content pages is stored in a txt file they are accessed using PHP via the navingation menu above and displayed in this content window.
+</p>

@@ -25,7 +25,6 @@
       justify-content: space-around;
       align-items: center;
       font-size: 20px;
-      position: fixed;
       width: 100%;
       background-image: radial-gradient(#FFFFFF, #B8F3FF);
     }
@@ -46,17 +45,20 @@
       display: inline-block;
       padding: 0px 20px 0px 20px;
     }
-    #home, #class_timetable, #lab_timetable, #home_photo, #other_photo {
-      padding-top: 50px;
-    }
     #cork, #sheeps_head {
       width: 80%;
       margin: 10px;
+    }
+    #content_window {
+      margin: 50px 150px 50px 150px;
+      height: 600px;
+      overflow: auto;
 
     }
     </style>
   </head>
   <body>
+
     <div class="navbar">
       <ul class="navlist">
         <li class="list-item"><a href="cms.php?content=1">Home</a></li>
@@ -66,25 +68,39 @@
 
       </ul>
     </div>
-    <div id="home">
-        <h2>Hello</h2>
+    <div id="content_window"> <!--  is_readable() for content not available !-->
         <?php
-          echo $_GET['content'];
+          if (isset($_GET['content'])) {
+              switch ($_GET['content']) {
+                case 1:
+                  $content = "home.txt";
+                  break;
+                case 2:
+                  $content = "ucc.txt";
+                  break;
+                case 3:
+                  $content = "personal.txt";
+                  break;
+                case 4:
+                  $content = "contact.txt";
+                  break;
+                }
+                if (in_array($_GET['content'], [1,2,3,4])) {
+                  if (is_readable($content)) {
+                    include $content;
+                  } else {
+                      echo "Error. Content file cannot be retrieved.";
+                    }
+                } else {
+                    echo "Invalid parameter. No such content.";
+                  }
+          } elseif (is_readable("home.txt")) {
+              include "home.txt";
+            } else {
+                echo "Error. Content file cannot be retrieved.";
+              }
 
          ?>
-        <p></p>
-      </div>
-    <div id="class_timetable">
-
-    <div id="lab_timetable">
-
-      </div>
-    <div id="home_photo">
-
-
-      </div>
-    <div id="other_photo">
-
-      </div>
+    </div>
   </body>
 </html>

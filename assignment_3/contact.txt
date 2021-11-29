@@ -1,1 +1,4 @@
-This is contact
+<p>Email: tom@forde.com</p>
+<p>Phone: 087-7777777</p>
+<p>Github: https://github.com/patr1cketh</p>
+<p>LinkedIn: https://www.linkedin.com/in/thomas-patrick-forde-121630202/</p>
