@@ -21,7 +21,7 @@
     }
 
     .navbar {
-      display: flex;
+      display: flex; /* flexbox */
       justify-content: space-around;
       align-items: center;
       font-size: 20px;
@@ -51,14 +51,14 @@
     }
     #content_window {
       margin: 50px 150px 50px 150px;
-      height: 600px;
-      overflow: auto;
+      height: 600px; /* fixed height */
+      overflow: auto; /* produces scroll bars when the content is larger than the div */
 
     }
     </style>
   </head>
   <body>
-
+    <!--Nav bar: href urls contain the content parameter which are used to access the other pages with php !-->
     <div class="navbar">
       <ul class="navlist">
         <li class="list-item"><a href="cms.php?content=1">Home</a></li>
@@ -68,10 +68,10 @@
 
       </ul>
     </div>
-    <div id="content_window"> <!--  is_readable() for content not available !-->
+    <div id="content_window"> <!-- all of the content is displayed in this window !-->
         <?php
-          if (isset($_GET['content'])) {
-              switch ($_GET['content']) {
+          if (isset($_GET['content'])) { // check if the content parameter from the url is set
+              switch ($_GET['content']) { // set the $content variable to the appropriate page depending on the value of the content parameter
                 case 1:
                   $content = "home.txt";
                   break;
@@ -85,17 +85,17 @@
                   $content = "contact.txt";
                   break;
                 }
-                if (in_array($_GET['content'], [1,2,3,4])) {
-                  if (is_readable($content)) {
-                    include $content;
+                if (in_array($_GET['content'], [1,2,3,4])) { // check if content has a valid value
+                  if (is_readable($content)) { // check if the file is readable
+                    include $content; // if all checks pass, display the content file
                   } else {
-                      echo "Error. Content file cannot be retrieved.";
+                      echo "Error. Content file cannot be retrieved."; // if the file is not readable display error message
                     }
-                } else {
+                } else { // if the parameter value is invalid display error message
                     echo "Invalid parameter. No such content.";
                   }
           } elseif (is_readable("home.txt")) {
-              include "home.txt";
+              include "home.txt"; // if content parameter is not set display the homepage
             } else {
                 echo "Error. Content file cannot be retrieved.";
               }
